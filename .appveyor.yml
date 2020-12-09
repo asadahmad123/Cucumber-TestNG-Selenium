@@ -1,4 +1,0 @@
-install:
-  # Log versions for debugging
-  - mvn test
-
