@@ -1,0 +1,8 @@
+install:
+  # Log versions for debugging
+  - java -version
+  - mvn --version
+build_script:
+  - mvn --batch-mode -DskipTests package
+test_script:
+  - mvn test
